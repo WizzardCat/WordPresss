@@ -70,17 +70,24 @@ the_post();
 
     <?php
         endwhile;
-        wp_reset_query();
+
+
+
+        if(function_exists('wp_simple_pagination')) {
+            wp_simple_pagination();
+        }
+
+    wp_reset_query();
     ?>
 
-		<ul class="pagination">
+		<!--<ul class="pagination">
 			<li class="next"><a href="#">&larr; Next</a></li>
 			<li><a href="#">1</a></li>
 			<li class="current">2</li>
 			<li><a href="#">3</a></li>
 			<li><a href="#">4</a></li>
 			<li class="prev"><a href="#">Previous &rarr;</a></li>
-		</ul>
+		</ul>-->
 
 	</section><!-- end #main -->
 

@@ -19,7 +19,7 @@ the_post();
             <li>Showing</li>
             <li><a data-categories="*">All</a></li>
             <li><a data-categories="animation">Animation</a></li>
-            <li><a data-categories="design">Illustration</a></li>
+            <li><a data-categories="design">Design</a></li>
 
         </ul><!-- end #portfolio-items-filter -->
 
@@ -52,7 +52,7 @@ the_post();
                  <a href="<?php the_permalink(); ?>">
                          <h3 class="title"><?php the_title() ?></h3>
                      <span class="title">Posted:</span> <a href="#"><?php the_time(get_option('date_format')); ?>
-                     <span class="categories"><?php echo strip_tags(get_the_term_list(get_the_ID(), 'skill', '', '/',''))?></span>
+                     <span class="categories">animation / manga</span>
                  </a>
 
              </article><!-- end .one-fourth (Not the end) -->
