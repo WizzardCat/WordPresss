@@ -32,6 +32,7 @@
 	<!-- HTML5 Shiv + detect touch events -->
 	<script src="<?php echo STATICPATH; ?>/js/modernizr.custom.js"></script>
 
+
 	<!-- HTML5 video player -->
 	<script src="<?php echo STATICPATH; ?>/js/video.min.js"></script>
 	<script>_V_.options.flash.swf = 'http://localhost/smartstart/js/video-js.swf';</script>

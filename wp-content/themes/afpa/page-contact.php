@@ -7,6 +7,7 @@ get_header();
 the_post();
 ?>
 
+
 <section id="content" class="clearfix">
 
     <div class="container clearfix">
