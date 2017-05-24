@@ -101,6 +101,13 @@ class Sondage_Widget extends WP_Widget
             </p>
             <input type="submit" name="choix_submit" value="Je valide mon choix"/>
         </form>
+
+        <h3>Nombre de oui:  <?php echo get_post_meta($choix->ID, "_sondage_oui", true); ?></h3>
+
+        <h3>Nombre de non:  <?php echo get_post_meta($choix->ID, "_sondage_non", true); ?></h3>
+
+        <h3>Nombre de je s'appelle Groot:  <?php echo get_post_meta($choix->ID, "_sondage_groot", true); ?></h3>
+
         <?php
         echo $args['after_widget'];
     }
